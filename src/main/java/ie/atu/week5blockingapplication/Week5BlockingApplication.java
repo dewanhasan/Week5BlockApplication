@@ -13,5 +13,5 @@ public class Week5BlockingApplication {
         SpringApplication.run(Week5BlockingApplication.class, args);
     }
     @Bean
-    public RestTemplate restTemplate(){ return new RestTemplate()}
+    public RestTemplate restTemplate(){ return new RestTemplate();}
 }
